@@ -1,0 +1,133 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;}  
+
+body {font-family: 'Montserrat', sans-serif;
+    width: 1510px;
+    margin: auto;
+}
+
+.wrapper {width: 1170px;
+margin: auto;}
+
+.my-city-name {
+color: #1B1D1F;
+font-size: 44px;
+font-weight: 600;
+line-height: 48px;
+margin-top: 0;
+margin-bottom: 36px;}
+
+.my-city-description {
+color: #1B1D1F;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+margin: 0;}
+
+.main-page {
+height: 100%;
+width: 100%;
+margin: auto;
+background-image: url("images/background.png");
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 32px;
+box-sizing: border-box;}
+
+.my-city-container {
+    border-radius: 40px;
+    background-color: #fff;
+    padding: 60px;
+    box-sizing: border-box;
+    width: 573px;}
+
+.goit-logo {
+    margin-bottom: 98px;}
+
+.form-page{padding: 60px 0px}
+
+.form {
+border-radius: 40px;
+background: #ECF4F8;
+width: 1170px;
+margin: auto;
+padding: 60px 100px;
+box-sizing: border-box;
+text-align: center;
+ }
+
+ .form-title {
+color: #1B1D1F;
+font-size: 44px;
+font-weight: 600;
+line-height: 48px;
+margin-bottom: 40px;
+ }
+
+ .form-field {
+border-radius: 12px;
+border: 1px solid #2B4C5C;
+width: 300px;
+height: 48px;
+padding: 12px 24px;
+margin-right: 24px;
+box-sizing: border-box;
+color: #1B1D1F;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+ }
+
+.form-submit-button {
+width: 280px;
+padding: 12px 24px;
+border-radius: 12px;
+background: #FF6B0A;
+box-sizing: border-box;
+padding: 12px 24px;
+margin-right: 24px;
+border: none;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #fff
+}
+
+.gallery-page {
+    padding-bottom: 88px;
+    margin: auto;
+}
+
+.gallery-title {
+padding-bottom: 80px;
+color: #1B1D1F;
+font-size: 44px;
+font-weight: 600;
+line-height: 48px;
+text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    justify-content: center;
+    
+}
+
+.gallery-modal-btn {
+border: none;
+width: 275px;
+height: 160px;
+flex-shrink: 0;
+background-color: #fff;
+cursor: pointer;
+}
+
+
+
+ /* Архів slider&modal - https://i.goit.global/slider-modal 
+ Бібліотека для модалки - https://micromodal.vercel.app/
+ Бібліотека слайдер - https://splidejs.com/ */
